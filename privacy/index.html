@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>liiists &mdash; privacy</title>
+  <meta name="description" content="Privacy policy for the liiists iOS app.">
+  <style>
+    body {
+      background: #000;
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+      max-width: 36rem;
+      margin: 4rem auto;
+      padding: 0 1.5rem;
+      line-height: 1.6;
+    }
+    h1 { font-weight: 300; font-size: 2.5rem; letter-spacing: -0.02em; margin-bottom: 0.5rem; }
+    h2 {
+      font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase;
+      color: #888; margin-top: 2.5rem; margin-bottom: 0.5rem;
+    }
+    a { color: #fff; text-decoration: underline; text-decoration-color: #ff3a00; text-underline-offset: 4px; }
+    p { margin: 0.5rem 0; }
+    .meta { color: #666; font-size: 0.85rem; margin-bottom: 2.5rem; }
+    .nav { font-size: 0.85rem; color: #666; margin-bottom: 2rem; }
+    .nav a { color: #888; text-decoration-color: #444; }
+    .footer { margin-top: 4rem; font-size: 0.8rem; color: #555; }
+  </style>
+</head>
+<body>
+  <p class="nav"><a href="/liiists-www/">&larr; liiists</a></p>
+
+  <h1>Privacy</h1>
+  <p class="meta">Last updated: May 5, 2026</p>
+
+  <p>What liiists collects on a server: nothing &mdash; because there isn&rsquo;t one.</p>
+
+  <h2>Where your lists live</h2>
+  <p>Your lists are plain markdown files. They&rsquo;re stored locally inside the liiists app on your device, and &mdash; if you have iCloud sync enabled &mdash; in your private iCloud Drive container. Apple manages iCloud; we have no access to it.</p>
+
+  <h2>Apple Intelligence (Suggest More)</h2>
+  <p>When you tap Suggest More, the list&rsquo;s title and items are passed to Apple&rsquo;s on-device foundation model running entirely on your phone. Nothing about the prompt or the suggestions ever leaves your device. liiists does not log or store either.</p>
+
+  <h2>Analytics</h2>
+  <p>The app uses PostHog to record anonymous, aggregated usage events (for example: <em>list_created</em>, <em>paywall_shown</em>) along with your device model and OS version. We do not send list titles, list contents, or anything personally identifying. No advertising or marketing SDKs are integrated.</p>
+
+  <h2>Purchases</h2>
+  <p>In-app purchases are handled by Apple via StoreKit. We see only whether your purchase succeeded; we never see your Apple ID, payment details, or billing history.</p>
+
+  <h2>Social and published lists</h2>
+  <p>If you choose to publish a list or join a shared pod, the relevant data lives in CloudKit under the liiists app&rsquo;s container. Apple manages this. You can unpublish or leave a pod at any time, which removes the corresponding data.</p>
+
+  <h2>Third parties</h2>
+  <p>The app uses two external services: Apple (iCloud Drive, CloudKit, StoreKit, Foundation Models) and PostHog (anonymous analytics). It does not use data brokers, ad networks, or tracking pixels.</p>
+
+  <h2>Children</h2>
+  <p>liiists is not directed at children under 13 and does not knowingly collect data from them.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes materially, the &ldquo;last updated&rdquo; date above will reflect that. Past versions are visible in the public Git history at <a href="https://github.com/djt53/liiists-www">github.com/djt53/liiists-www</a>.</p>
+
+  <h2>Contact</h2>
+  <p>Privacy questions: <a href="mailto:djtingle@gmail.com">djtingle@gmail.com</a></p>
+
+  <p class="footer">&copy; 2026</p>
+</body>
+</html>
